@@ -1,0 +1,100 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .places-list .place button {
+        width: 70%;
+        margin: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    .mobile-col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    .search-icon {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #nav .subnav {
+        width: 100%;
+        position: relative;
+        left: -32px;
+    }
+    
+    #nav .subnav li {
+        background-color: #333;
+        width: calc(100% + 32px);
+        border-top: 1px solid #666;
+    }
+
+    #nav .subnav li a {
+        color: white;
+    }
+
+    #nav .subnav li:hover a {
+        color: black;
+    }
+    
+    #nav > li {
+        display: block;
+        text-align: left;
+        padding-left: 32px;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+    
+    #nav > li:first-child {
+        width: 25%;
+        border: none;
+    }
+    
+    #slider .text-heading,
+    #slider .text-description {
+        display: none;
+    }
+
+    .places-list .place button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .input-name,
+    .input-email {
+        margin: 0 !important;
+        padding: 0;
+    }
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    
+    #footer .page a {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+    
+    .powered,
+    .create {
+        font-size: 1.2rem;
+    }
+    
+    #footer .powered a {
+        padding: 8px 0;
+    }
+}
